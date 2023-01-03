@@ -9,4 +9,26 @@
     <AnalysisLevel>latest-all</AnalysisLevel>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageTags>logging;serialization;formatting;json;file</PackageTags>
+    <Description>An extension of Microsoft.Extensions.Logging to serialize log entries as binary data.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <Authors>Kyle McClellan</Authors>
+    <Copyright>%A9 2022-2023 Kyle McClellan</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="*" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md;..\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
 </Project>

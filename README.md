@@ -1,2 +1,2 @@
-# log-serialization
-An extension of Microsoft.Extensions.Logging to serialize log entries as binary data.
+# log-formatting
+An extension of Microsoft.Extensions.Logging to format log information into typed entries.

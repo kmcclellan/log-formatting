@@ -10,8 +10,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageTags>logging;serialization;formatting;json;file</PackageTags>
-    <Description>An extension of Microsoft.Extensions.Logging to serialize log entries as binary data.</Description>
+    <PackageTags>logging;formatting;serialization;json;file</PackageTags>
+    <Description>An extension of Microsoft.Extensions.Logging to format log information into typed entries.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
     <Authors>Kyle McClellan</Authors>

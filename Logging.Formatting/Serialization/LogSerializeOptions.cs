@@ -33,4 +33,15 @@ public class LogSerializeOptions<TFormat>
     /// Gets or sets the serializer for log entries.
     /// </summary>
     public ILogEntrySerializer<TFormat>? Serializer { get; set; }
+
+    /// <summary>
+    /// Configures JSON serialization of log entries.
+    /// </summary>
+    /// <param name="jsonOptions">Options for the JSON serializer.</param>
+    /// <returns>The same options, for chaining.</returns>
+    public LogSerializeOptions<TFormat> AsJson(JsonSerializerOptions? jsonOptions = null)
+    {
+        this.Serializer = new JsonLogSerializer<TFormat>(jsonOptions ?? new());
+        return this;
+    }
 }

@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <RootNamespace>Microsoft.Extensions.Logging</RootNamespace>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AnalysisLevel>latest-all</AnalysisLevel>
+    <AnalysisMode>All</AnalysisMode>
   </PropertyGroup>
 
   <PropertyGroup>

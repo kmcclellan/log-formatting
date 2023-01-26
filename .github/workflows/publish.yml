@@ -13,3 +13,4 @@ jobs:
           dotnet nuget push */bin/Release/*.nupkg
           --source https://api.nuget.org/v3/index.json
           --api-key ${{ secrets.NUGET_TOKEN }}
+          --skip-duplicate

@@ -135,7 +135,7 @@ class WeatherFormatter : ILogFormatter<FarmLog>
 }
 ```
 
-The logging format builder provides a fluent API for the underlying [`LogFormatOptions<TFormat>`](/Logging.Formatting/Formatting/LogFormatOptions.cs), which can be also be configured directly.
+The logging format builder provides a fluent API for the underlying [`LogFormatOptions<TFormat>`](/Logging.Formatting/Formatting/LogFormatOptions.cs), which can also be configured directly.
 
 ```c#
 // Use service container to resolve formatter dependencies.

@@ -35,7 +35,7 @@ foreach (var animal in new[] { "cows", "pigs", "chickens" })
             logger.LogInformation(FarmLog.Milking, "{MilkBuckets} buckets of milk", 3);
         }
 
-        logger.LogInformation(FarmLog.Feeding, "Fat and happy", animal);
+        logger.LogInformation(FarmLog.Feeding, "Fat and happy");
     }
 }
 
